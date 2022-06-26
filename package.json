@@ -12,27 +12,27 @@
   "author": "Cheri Hung",
   "license": "MIT",
   "engines": {
-    "node": "12.10.0"
+    "node": ">=12.22.0"
   },
   "dependencies": {
-    "@babel/core": "^7.7.7",
-    "@babel/register": "^7.7.7",
-    "babel-loader": "^8.0.6",
-    "core-js": "3.6.2",
+    "@babel/core": "^7.14.8",
+    "@babel/register": "^7.17.7",
+    "babel-loader": "^8.2.5",
+    "core-js": "3.6.4",
     "cors": "^2.8.5",
-    "env-cmd": "^10.0.1",
-    "express": "^4.17.1",
-    "morgan": "^1.9.1",
-    "nodemon": "^2.0.2",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.18",
     "npm-run-all": "^4.1.5",
-    "regenerator-runtime": "^0.13.3",
-    "webpack": "^4.41.5",
+    "regenerator-runtime": "^0.13.9",
+    "webpack": "^5.30.0",
     "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.7.7",
-    "eslint": "^6.8.0",
+    "@babel/preset-env": "^7.18.2",
+    "eslint": "^8.18.0",
     "eslint-config-google": "^0.14.0",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^4.10.0"
   }
 }
