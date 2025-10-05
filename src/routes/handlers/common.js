@@ -1,10 +1,14 @@
-export const defaultSuccessHandler = (req, res) => {
-  res.send();
+export const defaultSuccessHandler = (_req, res) => {
+  res.json({
+    status: 'ok',
+  });
 };
 
-export const healthCheckHandler = (req, res) => {
+export const healthCheckHandler = (_req, res) => {
   res.json({
     status: 'healthy',
+    uptime: process.uptime(),
+    timestamp: Date.now(),
   });
 };
 
